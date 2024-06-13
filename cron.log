@@ -1,0 +1,285 @@
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ aws s3 ls
+/home/vaibhav/learnbash/aws_resource_tracker.sh: line 24: aws: command not found
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ aws ec2 describe-instances
+/home/vaibhav/learnbash/aws_resource_tracker.sh: line 29: aws: command not found
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ aws lambda list-functions
+/home/vaibhav/learnbash/aws_resource_tracker.sh: line 33: aws: command not found
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ aws iam list-users
++ jq '.Users[].UserName'
+/home/vaibhav/learnbash/aws_resource_tracker.sh: line 37: aws: command not found
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
+/home/vaibhav/learnbash/aws_resource_tracker.sh: line 29: aws: command not found
++ echo 'Print list of Lambda functions'
++ aws lambda list-functions
++ jq '.Functions[].FunctionName'
+/home/vaibhav/learnbash/aws_resource_tracker.sh: line 33: aws: command not found
++ echo 'Print list of IAM users'
++ aws iam list-users
++ jq '.Users[].UserName'
+/home/vaibhav/learnbash/aws_resource_tracker.sh: line 37: aws: command not found
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ jq '.Users[].UserName'
++ /usr/local/bin/aws iam list-users
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'
++ set -e
++ output_file=/home/vaibhav/learnbash/resourceTracker
++ aws=/usr/local/bin/aws
++ touch /home/vaibhav/learnbash/resourceTracker
++ uptime
++ echo 'Print list of S3 buckets'
++ /usr/local/bin/aws s3 ls
++ echo 'Print list of EC2 instances'
++ /usr/local/bin/aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ echo 'Print list of Lambda functions'
++ /usr/local/bin/aws lambda list-functions
++ jq '.Functions[].FunctionName'
++ echo 'Print list of IAM users'
++ /usr/local/bin/aws iam list-users
++ jq '.Users[].UserName'

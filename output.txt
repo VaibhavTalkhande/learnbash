@@ -1,0 +1,7 @@
+This is sample text.
+this is second line
+input.txt
+output.txt
+readarg.sh
+readline.sh
+run_all.sh

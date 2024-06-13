@@ -1,0 +1,9 @@
+an't find what you are looking for? Try searching again using different criteria, or try searching the AUR to see if the package can be found there.
+
+You are browsing the Arch Linux package database. From here you can find detailed information about packages located in the official supported repositories.
+
+
+
+
+
+
